@@ -1,5 +1,5 @@
 window.Shop = {
-    API_BASE_URL: "http://localhost:8085",
+    API_BASE_URL: "http://localhost:8086",
 
     getProducts: function () {
         $.ajax({
@@ -53,7 +53,7 @@ window.Shop = {
 
     addProductToCart: function (productId) {
         var request= {
-            customerId: 39,
+            customerId: 7,
             productId: productId
         };
         $.ajax({
